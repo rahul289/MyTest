@@ -36,16 +36,45 @@ public class Main {
 		BT rtree=new BT(6);
 		tree.setLeft(ltree);
 		tree.setRight(rtree);
-		System.out.println("Tree data is "+tree.getLeft().data);
+	//	System.out.println("Tree data is "+tree.getLeft().data);
 		ArrayList<BT> listOfBt= generateBT(1,3);
 		System.out.println("Size of Binary Tree is "+listOfBt.size());
-		System.out.println(listOfBt);
+		System.out.println(listOfBt.get(0));
+		System.out.println(listOfBt.get(1));
+        System.out.println(listOfBt.get(2));
+        System.out.println(listOfBt.get(3));
+        System.out.println(listOfBt.get(4));
+		int i=1;
+		for(BT traverasl:listOfBt)
+		{
+		    System.out.println("The detail of tree:" +i);
+		    LevelOrderTraversal(traverasl);
+		   // InOrderTraversal(traverasl);
+		    i++;
+		    System.out.println();
+
+		}
     } 
+    public static void LevelOrderTraversal(BT root)
+    {
+        
+    }
+    public static void InOrderTraversal(BT root)
+    {
+        if(root!=null)
+        {
+            InOrderTraversal(root.getLeft());
+            System.out.print(root.data+" ");
+            InOrderTraversal(root.getRight());
+        }
+    }
     public static ArrayList<BT> generateBT(int start,int end)
     {
+        System.out.println("Start is "+start+" and end is "+end);
         ArrayList<BT> subTree= new ArrayList<BT>();
         if(start>end)
         {
+            System.out.println(start+","+end+"-0");
             subTree.add(null);
             return subTree;
         }
@@ -62,6 +91,17 @@ public class Main {
                         }
                 }
         }
+   //     System.out.println("The value of start is "+start);
+    //    System.out.println("The value of end is "+end);
+        System.out.println(start+","+end+"-"+subTree.size());
+        for(int i=0;i<subTree.size();i++)
+        {
+             System.out.println((i+1)+"th tree");
+            InOrderTraversal(subTree.get(i));
+             System.out.println();
+           
+        }
+       
         return subTree;
     }
     
