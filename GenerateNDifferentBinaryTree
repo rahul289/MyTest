@@ -1,0 +1,69 @@
+import java.util.*; 
+  
+class BT{
+        int data;
+        BT left,right;
+        public BT(int data)
+        {
+            this.data=data;
+            this.left=null;
+            this.right=null;
+        }
+        public void setLeft(BT left)
+        {
+            this.left=left;
+        }
+        public BT getLeft()
+        {
+            return left;
+        }
+        public void setRight(BT right)
+        {
+            this.right=right;
+        }
+        public BT getRight()
+        {
+            return right ;
+        }
+    }
+// Driver Code 
+public class Main { 
+  
+    public static void main(String args[]) 
+    {
+        BT tree=new BT(5);
+		BT ltree=new BT(4); 
+		BT rtree=new BT(6);
+		tree.setLeft(ltree);
+		tree.setRight(rtree);
+		System.out.println("Tree data is "+tree.getLeft().data);
+		ArrayList<BT> listOfBt= generateBT(1,3);
+		System.out.println("Size of Binary Tree is "+listOfBt.size());
+		System.out.println(listOfBt);
+    } 
+    public static ArrayList<BT> generateBT(int start,int end)
+    {
+        ArrayList<BT> subTree= new ArrayList<BT>();
+        if(start>end)
+        {
+            subTree.add(null);
+            return subTree;
+        }
+        for(int i=start;i<=end;i++)
+        {
+            for(BT left:generateBT(start,i-1))
+                {
+                    for(BT right:generateBT(i+1,end))
+                        {
+                            BT aT=new BT(i);
+                            aT.setLeft(left);
+                            aT.setRight(right);
+                            subTree.add(aT);
+                        }
+                }
+        }
+        return subTree;
+    }
+    
+    
+} 
