@@ -1,0 +1,102 @@
+Start is 1 and end is 3  c
+Start is 1 and end is 0 c
+1,0-0c
+Start is 2 and end is 3c
+Start is 2 and end is 1c
+2,1-0
+Start is 3 and end is 3 c
+Start is 3 and end is 2c
+3,2-0
+Start is 4 and end is 3c
+4,3-0
+3,3-1
+1th tree       A
+3 
+Start is 2 and end is 2
+Start is 2 and end is 1
+2,1-0
+Start is 3 and end is 2
+3,2-0
+2,2-1
+1th tree
+2 
+Start is 4 and end is 3
+4,3-0
+2,3-2
+1th tree
+2 3 
+2th tree
+2 3 
+Start is 1 and end is 1
+Start is 1 and end is 0
+1,0-0
+Start is 2 and end is 1
+2,1-0
+1,1-1
+1th tree
+1 
+Start is 3 and end is 3
+Start is 3 and end is 2
+3,2-0
+Start is 4 and end is 3
+4,3-0
+3,3-1
+1th tree
+3 
+Start is 1 and end is 2
+Start is 1 and end is 0
+1,0-0
+Start is 2 and end is 2
+Start is 2 and end is 1
+2,1-0
+Start is 3 and end is 2
+3,2-0
+2,2-1
+1th tree
+2 
+Start is 1 and end is 1
+Start is 1 and end is 0
+1,0-0
+Start is 2 and end is 1
+2,1-0
+1,1-1
+1th tree
+1 
+Start is 3 and end is 2
+3,2-0
+1,2-2
+1th tree
+1 2 
+2th tree
+1 2 
+Start is 4 and end is 3
+4,3-0
+Start is 4 and end is 3
+4,3-0
+1,3-5
+1th tree
+1 2 3 
+2th tree
+1 2 3 
+3th tree
+1 2 3 
+4th tree
+1 2 3 
+5th tree
+1 2 3 
+Size of Binary Tree is 5
+BT@677327b6
+BT@14ae5a5
+BT@7f31245a
+BT@6d6f6e28
+BT@135fbaa4
+The detail of tree:1
+
+The detail of tree:2
+
+The detail of tree:3
+
+The detail of tree:4
+
+The detail of tree:5
+
