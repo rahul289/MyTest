@@ -1,0 +1,24 @@
+Test Cases for Gmail Login Page
+
+We can write two types of test Cases:
+
+
+1) Positive Test Cases
+2) Negative Test Cases
+
+
+I. Positive Test Cases 
+
+A) Test Cases for User Name/Email Box
+
+1) Verify that User Name/Email Box must be available
+2) Verify that User Name/Email Box must be clickable
+3) Verify that User Name/Email Box must be Informative (Email or phone)
+4) Verify that Email should not start with or contain any symbols
+5) Verify that the cursor focus in text area as Gmail login page load
+6) Verify that Email should contain letters and numbers.
+7) Verify that Email should not be left blank. 
+8) Verify that Email should not be more than 40 characters.
+9) Verify that if user hit the Login Button(now a days Next Button is coming) without enter User Name/Email/Phone then there must be an error message that “Enter an email or phone number”
+
+

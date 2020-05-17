@@ -1,0 +1,163 @@
+Test Cases OF PEN or Test Cases for PEN
+
+Two types of Test cases are there:
+
+1) Positive Test Cases
+
+2) Negative Test Cases
+
+
+A) Positive Test Cases are:
+
+1. Installation Testing
+
+2.UI Testing: or Design based Testing
+
+3. Usability testing
+
+4. Integration Testing
+
+5. Functional Testing
+
+6.Non Functional Testing
+
+7. Performance and Stress Testing
+
+8. Reliability testing
+
+
+
+Let’s Explain one by one:
+
+
+1.  Installation Testing:
+
+
+1)      Check if the all parts of the Pan is fitting properly and no loose fitting.
+
+2)      Check if the Pan refill is fitted properly.
+
+3)      Verify the type of Pen- whether it is gel Pen or Ball Pen
+
+
+2. UI Testing: or Design based Testing:
+
+1)      We will check the design of  the pen is as per required specification(given in SRS)
+
+2)      We will check the colour of  the pen is as per  required specification(given in SRS)
+
+3)      We will check the refill  of the Pen  is as per the required specification (refill  Size and refill length)
+
+4)      We will check the length, breadth and width of the Pen is as per required specification(given in SRS)
+
+5)      We will check the body of the Pen- it should be metallic, plastic or any other material as per specification(given in SRS)
+
+6)      We will check that the Company LOGO is properly printed on Pen or not as per the design specification
+
+7)      Verify the company name or logo of the maker is at desired place on pen.
+
+8)      Check  the tip dimension(0.5mm or 0.7mm as requested) of the pen is as per the specification or not.
+
+9)      Verify the weight of the Pen
+
+10)  Check if the enough distance present between Pen tip and pen grip Section
+
+11)   Check if the body of the Pen can be bend(up to a limit) or not, check if its material is brittle
+
+12)  We will check  that pen has rubber grip or not
+
+13)   Check the pen grip Section, it must be very gentle(soft) to avoid the pressure on fingers
+
+14)  Check that the pen is with a cap or without  the cap
+
+15)  Check that a clip is available on pen or on Pen cap to hang the pen on pent or shirt.
+
+
+3. Usability testing   :
+
+
+      1)  Check if Pen is writing with minimum noise and vibration means the pen is smooth or not
+
+      2) Check if Pen is not making spots when it’s in the movement.
+
+      3)  Check if Pen is usable for similar refill of different brands.
+
+
+4. Integration Testing: 
+
+
+       1) Check the length of the Pen body and refill.
+
+       2) Verify that refill properly fit with Pen or not
+
+       3) Verify that the Pen can be fit properly with pen cap.
+
+
+5. Functional Testing :
+
+
+1)       Check out that  pen is able to write on Paper or not
+
+
+2)       Check out that  pen is able to write on  rough surface  or not
+
+
+3)       Check out that  pen is able to write on wet paper or not
+
+
+4)      Check out that  pen is able to write  on hand or not
+
+
+5)      Write on paper and check out the color of ink must be same as specified
+
+
+6. Non Functional Testing:
+
+
+1)   The look and feel of Pen must be like pen     
+
+2)      The body of the pen must not be  too thin or  too thick
+
+3)      The look and feel must be good
+
+4)   Check out that is there any mark on pen that tells that you can write up to this limit(How many words)
+
+
+7. Performance and Stress Testing:
+
+
+1)      Check out  the condition of ink after long period of time is as per specification or not means there will be no effect of time on ink of the pen
+
+2)      Check out that how pen behave in different work conditions
+
+3)      Verify the Pen's condition when continuously writing  for very large duration
+
+4)      Check out that how pen works on different pen positions(like horizontal, vertical, above and below from head)
+
+5)      Checkout the effect of water and oil and other liquid on the text written by pen
+
+6)      Checkout  that the text written by pen must not  get faded  after a certain time(not before specified time)
+
+7)      Check out that  the text written by pen is erasable or not
+
+8. Reliability testing:
+
+
+1)      Check out  the minimum and maximum speed of Pen by which the user can write when writing on paper
+
+
+
+2)      Check if the material used for Pen refill and check if it’s not getting out from pen when it is in motion.
+
+
+
+B) Negative Test Cases
+
+
+1)      Check out that Pen is working without  refill.
+
+2)      Check out the Pen have right color ink
+
+3)      Checkout the  Pen stress testing by dropping Pen down from desired height and check if nothing is breaking, no  damage to Pen and Pen is working without any issues.
+
+4)      Check how Pen is working at different climate environmental conditions like at room temperature.

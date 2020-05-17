@@ -1,0 +1,532 @@
+Study about amazon firestick
+Level 4 engineer:-
+
+
+
+There is a website, which is working fine in US, but not working in India. Debug the scenario.
+always remember:-
+The first thing the interviewer is expecting here is that you ask what does he/she means by "not working". 
+It's a test of your ability to ask questions and clarify situations. 
+After you get to a clear description of the issue, you can then start troubleshooting steps that targets the specific issue.
+
+Other useful links:-
+https://www.geeksforgeeks.org/amazon-interview-experience-set-420-qae/
+functional test of shopping cart:-https://khyatisehgal.wordpress.com/2017/02/16/functional-test-cases-of-shopping-cart/
+
+
+https://www.techbeamers.com/amazon-quality-assurance-engineer-interview-guide/
+https://www.careercup.com/page?pid=quality-assurance-engineer-interview-questions&n=8
+https://www.softwaretestingo.com/amazon-selenium-interview-questions/
+https://allplacement-papers.blogspot.com/2015/05/amazon-qa-engineer-interview-process.html
+
+
+
+Difference between Whitebox/Blackbox/Greybox? Give examples?
+
+From quora:-
+When do you think QA activities should start?
+A.QA activity should start from the beginning of the project. The more early it starts the more benefit it is to set the standards for achieving the quality.
+The cost, time and efforts are very challenging in case the QA activities gets delayed.
+
+
+How do you define a format of writing a good test case?
+A.A test case has the below format:
+Test case ID,
+Test case description
+Severity
+Priority
+Environment
+Build version
+Steps to execute
+Expected results
+Actual results
+
+
+What do you think should be the ideal time to start QA in the project?
+Answer: According to SDLC i.e. Software Development Life Cycle, the testing phase has to be instigated only after the “Implementation and Coding” phase is completed. 
+But if we consider today’s scenario, for best results, it would be a requirement to start the QA of the project or product at the beginning of the project.
+
+What is a good test case?
+A.In simple words, a good test case is one which finds a defect. But all test case will not find defects, so A good test case can also be one which has all the prescribed details and coverage.
+
+
+What are bug leakage and bug release?
+Bug release happens when the software or an application is handed over to the testing team knowing that the defect is present in a release. 
+When this happens, the priority and harshness of the bug are low. This happens because the bug can be removed before the final handover.
+Bug leakage is something that happens when the bug is discovered by the end users or by the customer, and it is not detected by the testing team while testing the software.
+
+
+All from  glassdoor:-
+Programming question asked till date
+1.Given an array of integers, how would you move the duplicate integers into a different array? What is the efficiency of your algorithm?  
+
+Write a function in any language that will print "AN" if a number is divisible by 8, "ANIM" if divisible by 16 and "ANIMAL" if divisible by 32
+
+Given an array with numbers 1-5, how would you subtract one number from each index
+
+Given an array with numbers 1-5, how would you subtract one number from every EVEN number in each index?
+
+Find the shortest path between 2 points on a 2d matrix.
+
+Find the union of two strings?
+
+From a given list of array (Not sorted) find the second largest value
+
+Find the prime numbers from the given list of array (1 -100
+
+(tachometer, pair of integers adding to a sum and another string problem to remove numbers from a mix of numbers and characters)
+
+
+find the largest sum of consecutive integers in an array
+
+input string = aabbbccccaaa, maintain the insertion order and output should be a2b3c4a3  
+
+Typical coding question of how to determine if a string is a palindrome
+
+The second part was about scripting languages. There were about 4 tasks to write a code into the web application so that the interviewer could see it.
+
+Give Test cases to test amazon website Check out page ?  
+
+write a program to remove duplicates numbers from the list and display the duplicates ? ( The Programming Language can be any, I did in Java ) and the interviewer shares the screen with you and can see you typing .  
+
+write a program where a there are multiple users logging into the system or file and I want to know the login Occurrences of the each user . Note : The file is separated by the commas. ex: User1 , User2, user1 , user3.........  
+
+Questions on sum up all elements in a matrix and how to find a pair which sums up to a given element in an array.
+
+give a list of information for people （age，weight，height），sort by peoples height. 
+
+
+ Program to check for palindrome
+
+ Gave me Fibonnacci Program to write 
+
+Reverse a string  
+
+Quickest way to sort 1,000,000 integers  
+A1.Qucksort is the quickest sorting algorithm for any random set of 100 or more numbers.
+A2.Counting sort is the best way to sort
+
+
+Given an array of integers, how would you move the duplicate integers into a different array? What is the efficiency of your algorithm?  
+
+
+Find a pair such that the product is maximum
+I did it in nlogn time complexity by sorting the array and find 2 minimum and 2 maximum elements from array.
+ But I was told to improve it. I did it in O(n) complexity by directly finding 2 minimum and 2 maximum elements from array. I further improved by solving it in O(logn) time complexity by using heap tree.
+
+
+Check if first string is anagram of second.
+I did it in O(n) time complexity by using HashMap in Java.
+
+Closest Palindrome to the number
+
+Find array contains duplicate numbers
+
+Print numbers in rhombus shape
+1
+121
+12321
+121
+1  
+
+Count of characters in string
+
+Write the program to find the
+consecutive duplicate letters in each word of the sentence and print the sentence without duplicate letters
+
+Find the series of numbers in an array which gives the sum value as 3  
+
+string sort,convert given two digit binary number to decimal number,eliminate continuously repeated letter in string(aaabcbb to bc)  
+
+
+12,34,85,65,25..
+he gave me a set of numbers asked me find the leaders in the series.  
+leaders in the series have all the numbers left to that number less than it's value.
+for example 12 is the leader as no number to its left. 34,85 are the other leaders.
+he asked me to implement it. he asked me to explain my procedure. I said i come from the last number in the series,i check it with rest elements to its left if all the numbers are less than that i will print it as a leader.he asked me timecomplexity , i said n^2.
+so try to reduce the complexity ,he said. then i said i will take 1st element as max then print iti.e.,12.using this max value i compare numbers until i reach the next max i.e,34 ...then 85.
+then the process stops as 65 and 25 are not max value compared to 85.
+he was satisfied
+
+what is binary search ?
+we will find the mid value and if search value is less than the mid we will search numbers left to the mid values else on the right side. he asked me to implement and i did it.
+
+
+what is binary search tree?what is doubly circular linked  list?.......
+
+
+Reversing words in a sentence without library functions
+
+Grouping positive numbers, zero, and negative numbers together  
+
+they asked to code in shell script which was unexpected and many other questions related to Data Structure Logic Programs!  
+
+Find the greatest product using 3 numbers in an array. 
+
+Data Structure Questions  
+
+To print an array of numbers in their given pattern.  
+
+Anagrams , given two string to know if the another one is  the combination of it
+A1.I was out of time, however I took values of both string in hash and then comparing both by sliding one by one in a loop. easily available on geeks for geek
+A2.Convert both to character arrays and perform arrays.Sort(); Convert them abck to string and do string equals;
+
+
+Circular sorted array, get the largest element  
+
+aaabbbbbaccc give the count of each strig
+
+find unique element in array which all element duplicate  
+XOR array
+
+Write a code to detect the first number having duplicate in below mentioned Array.
+Array = [4 1 2 5 8 1 3]
+Output would be 1.
+
+
+Write a code to for an input arithmetic equation to detect the braces and return the output in Binary i.e. for each opened braces there would be one closed braces.
+2+((3-1)/8 ----- Output = False
+2+((3-1)/8) -------- Output = True
+
+Given two arrays and you have to combine them and print the median 
+
+find the point of intersection in a inverted Y singly linked list (need to write logic and program)
+
+given a array of numbers, write a program to print count of each number present in the array.
+
+Script to print a matrix in a circular fasion
+
+How to remove duplicates from an array
+Use hash map
+
+
+. s1=&#034;AMAZON&#034; s2=&#034;ZONAMA&#034; , how will you check if any combination of characters in s2 will give string s1?
+
+given an array of both positive and negative integers, find the two numbers whose product is the maximum
+
+There is an array array1=[20,10,4,3,8,9,30]. There result array should have the immediate next number of the main array. i.e array2=[30,20,8,4,9,30]
+Search for the substring in main string and also search whether all the elements of substring are present in main string.
+A.Make a copy of the array and sort the array first ,then proceed.
+
+reverse linked list efficient way  
+
+
+Write script to get palindromes and return 3rd largest palindrome.
+
+Suppose all digits of a number are represented by nodes in a linked list, how will you write a program to add lists ?
+
+
+There was this problem solving question on finding out the  shadow length when the buildings were given in a particular fashion
+Considering that the building height is given, then to find out the shadow length you should be knowing light source altitude which would be in degrees so change the degree to tangent.
+then you can get the shadow height= Object Height/tangent.
+
+
+
+
+
+
+
+Testing questions:-
+
+Why agile methodology is much more powerful than waterfall?
+A1.Prioritizing the requirements is the key in Agile methodology. 
+Highest priority items will be tackled first and exit criteria for them will be Highest. 
+So obviously the product delivered will be of most useful to customers. Which is totally missing in Waterfall model.
+A2.Agile methodology let the product team reach the customer with MVP in shorter cycles, so that user feedback can be incorporated, product is improved to match the user expectations, 
+while in waterfall, entire feature set is developed and then product is sent to users, incorporating the user feedback only after the complete development and takes entire cycle
+A3.Scrum produces better results than waterfall. Please see -
+http://experttesters.com/2014/03/20/how-to-release-more-often-have-great-customer-focus-and-great-quality/
+
+
+Test case for Mobile phonebook
+
+Write testcases and test plan for text 2 speech API ?
+
+
+
+Write testcases for google autocomplete.
+
+troubleshoot a scenario where you are not able to reach wikipedia site.
+
+Write testcases for google chat.
+
+
+
+the test cases for login page  
+
+
+Write test cases for a web page having "Browse" for files and "Upload". Write test cases for youtube player and youtube mobile app debug
+
+test scenarios for Google glass.
+
+
+identify test data for youtube app on the phone.
+
+
+
+
+your mobile contacts are not getting synced with PC.. debug the scenario
+
+Given a desktop application that intakes a pdf file and generates set of files for images, text, charts and link.. how do you test this? TC enumeration
+
+test cases for breaking a amazon system
+
+test cases for vending machine
+
+
+You are unable to sync you contacts in smartphone with your PC. How would you debug this issue. 
+
+A desktop application accepts input file as PDF and generates a HTML file as output. Write Test case for this application. Test coverage is more important than the number of test cases
+
+why Amazon, what defines you as tester, what you achieve , what initiative etc.
+Test shopping cart, Amazon related item search Algo
+
+how you give the estimation if you don't have any idea about the work.
+
+How do you test a tea cup?
+Asking how to test an object is fairly common practice. 
+Basically, the interviewer wants to see how you would create/organize a test suite and test cases. 
+A common role for a QAE is to develop this sort of test infrastructure whether its software, hardware or consumer items. 
+Being Amazon, I would gather that consumer items are a rather important element. And yes, they do sell teacups...
+For example I came up with the following partial list:
+Upfront, I would ask for product specs,
+ whether the tea cup is a new thing or based off of a previous line\design. 
+I would ask for defect reports, manufacturing issues, legal issues (maybe a lead glaze was used... getting at safety (security equivalent in a software product), 
+User feedback about the older line of teacups (or similar line of teacups), etc.
+Then I would put together a plan - testing functionality (does the tea cup hold tea without issues? what about other possible liquids (boundary testing) - coffee, water, soda, acidic juices, bleach, paper clips, thumb tacks etc.) 
+stress testing (drop tests to determine if it breaks easily or not), 
+longevity testing (filling/dumping tea, running through dishwashers, etc affect the surface, does it tend to crack, etc),
+Safety testing (if it breaks, does it create shards or crumbles like safety glass, coating process toxic materials, etc), then there are instructions (localization of languages).. and on and on and on.
+
+
+
+Top testing and quality attributes for an ATM System 
+
+write test case for alarm clock,gmail(for sending and receiving mail),importing phone number to an excel sheet
+
+Write class representation of a deck of cards (52 cards) and that class definition should handle shuffle and deal methods.  
+
+
+Imagine Amazon wanted a file uploader project from you. What would the detailed test plan for this project?  
+
+test case generation for payment page
+
+test data generation  
+
+Test case enumeration- write the test case for video calling app in mobile
+
+
+
+1.How would you test the "Find" feature in an application such as MS Word? 
+
+How to automate an API that retrieves bank, card holder information based on Credit card number is given as input.  
+
+How would you test payment processing. 
+
+Test cases and test plan for the Amazon login screen and behavioural questions.
+
+The first part was about QA processes, test cases, bug reports and requirements
+
+ Architecture flow in your company?
+
+Test cases for youtube
+Ans:-2. Test cases for youtube
+- www.youtube.com - should be loaded
+- When I search for a content it should find the right or close enough search or we can say search should be relevant
+- The history should maintain the date and and orderly
+- Page should load with youtub logo on the top left
+- And the left most pannel should have Home, My channel, Trending, Subscription, History, Watch later
+- The library widget should've option for Liked videos and it's contents
+- The Subscription should show all the subscriber channels
+- All the videos should be shown up as grid view
+- Should work all same for the mobile as well
+- The user name and password should authenticate the valid user and should not authenticate the invalid user
+
+how do you test microwave  
+
+ideally automated unit tests such as test-driven development.
+
+ASked me how I will test my program
+
+
+Black Box Testing
+
+White Box Testing
+
+test case debugging questions
+
+
+Int a, Int b...write test cases for sum
+
+
+How to create test plan? Explain
+
+Difference between functional testing and regression testing  
+
+Automation process 
+
+What will you do when you miss a dead line for a release.
+A1.Depending on the nature of the project (client facing vs. internal) and the client's needs, the high priority functionality should be 
+deployed to production first while the medium and low impact functionalities can be delayed for the time being. 
+While doing so, we would also have to make sure that the high priority functionality should work independently of the medium/low functionalities.
+A2.I directly inform to my project manager as he/she will have better experince he/she will handle this smoothly
+
+Test the amazon website
+
+
+Diff in white Box & Black Box Testing
+
+
+Define Testing  
+Testing can be defined as a process done to validate whether we are building the right product and verify if we are building the product right. It can be said as a destructive engineering for building a robust product
+
+
+How would you test the "Find" feature in an application such as MS Word? 
+-------------------
+Find/Replace
+-------------------
+
+large document
+
+Open a large document in the editor
+Enter a simple string in the Find dialog that has multiple occurences that exists in document
+Verify that you're able to find each occurence of that string
+--------------------------------------------------------------------------------------------------------------------
+small document
+
+Open a small document in the editor
+Enter a simple string in the Find dialog that has 1 or more occurences that exists in document
+Verify that you're able to find each occurence of that string
+---------------------------------------------------------------------------------------------------------------------
+short string
+
+Open a normal document in the editor
+Enter a very short string (e.g. "hi") in the Find dialog
+Verify that you're able to find each occurence of that string.
+--------------------------------------------------------------------------------------------------------------------
+long string
+
+Open a normal document in the editor
+Enter a long string(e.g. "existentialism") in the Find dialog that exists in document
+Verify that you're able to find each occurence of that string.
+---------------------------------------------------------------------------------------------------------------------
+space
+
+Open a normal document in the editor
+Enter a space (e.g. " ") in the Find dialog
+Verify that the first space is found.
+--------------------------------------------------------------------------------------------------------------------
+case sensitive
+
+Open a normal document in the editor
+Enter a string (e.g. "The") in the Find dialog that exists in document
+Click on the Case Sensitive checkbox, followed by OK button to start Find.
+Verify that you're able to find only "The" occurences of that string and not "the"
+--------------------------------------------------------------------------------------------------------------------
+case insensitive
+
+Open a normal document in the editor
+Enter a string (e.g. "The") in the Find dialog that exists in document
+Click on the Case Sensitive checkbox, followed by OK button to start Find.
+Verify that you're able to find any occurence containing "the", (e.g. The, tHe, thE, the)
+---------------------------------------------------------------------------------------------------------------------
+backward (case 1)
+
+Open a normal document in the editor
+Enter a string in the Find dialog that exists in document
+Find all occurences untill you're at the end of document
+Now click on Backwards checkbox, followed by OK button
+Verify that you're able to find occurences of that string going up the document, backwards.
+-------------------------------------------------------------------------------------------------------------------
+backwards (case 2)
+
+Open a normal document in the editor
+Insert cursor somewhere after the first string to be found.
+Enter that string in the Find dialog and click on Backwards checkbox, followed by Ok button
+Verify that you're able to find the occurences of that string backwards from where you originally inserted your cursor.
+-------------------------------------------------------------------------------------------------------------------
+garbage chars
+
+Open a normal document in the editor
+Enter a bogus string (e.g. "9s7ryg9r" ) in the Find dialog that doesn't exist in document
+Verify that you're able find no occurence of that string.
+------------------------------------------------------------------------------------------------------------------
+
+
+How would you test a football?
+I answered with things such as test the pressure, grip, colour, can it take a very hard impact, is it spherical, wear and tear, etc
+
+
+
+How would you test a chat bot option on web page?  
+
+Assume you are watching Amazon prime on a laptop and all of a sudden it stops working. How would you debug?  
+
+
+
+
+
+
+
+Others:-
+Lot of behavior questions  
+
+More emphasis on leadership qualities
+
+
+More behavioral questions on how would you deal with a situation
+
+
+ Asked me difference between class & object
+
+Abstract classes
+
+Hash Table
+
+Why I want to join Amazon
+
+
+Tools which I use currently,
+
+
+Design World Wide Web from scratch
+
+A webservice takes 10 secods for processing but 120 secs for data Transfer, how will you speed up the process (I mentioned parallel processing but he asked me to go beyond it) maybe faster internet smthing
+
+
+ What happens when user types in Amazon.com home page URL in address bar.
+
+
+Why did you decide to choose Mongo over Relational DB  
+For my case it was the data format inconsistency which prompted the team to take the decision
+
+
+basic in os,db,networks,linux commands
+
+how long will u sustain here?  
+
+About current work and be sure you know enough.  
+
+Bar raiser is like pair coding round, have to give a optimized solution for the pblm.
+In my bar raiser round I wasted 45 mins in my project explanation, and behavioral questions. Only 15 mins were given for test case generation and a program.
+
+With block diagram explain your last automation work done.
+
+
+You are working for a big brand. And even your role is  interesting. Then why are you looking for a job change?
+Even though the company I am working for is a big brand and my job might be interesting but, thats not suffice from the job I am doing. Main driving forces might be
+1. no clear career growth path
+2. no clear road map for the product
+3. Stagnation in the same product will hinder the opportunities to learn new things, simply put to explore more domains or new areas
+
+
+
+
+
+Round details
+Round 1 - Test case Enumeration
+Round 2 - Test Data Generation
+Round 3 - Scripting
+Round 4 - Bar Raiser
+Round 5 - Managerial
+
